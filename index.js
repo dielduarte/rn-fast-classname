@@ -10,4 +10,4 @@ function getClass(styles, conditionalStyles) {
   }, []);
 }
 
-export default memoize(getClass);
+module.exports = memoize(getClass);
