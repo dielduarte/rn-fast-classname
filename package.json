@@ -1,0 +1,27 @@
+{
+  "name": "rn-fast-classname",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dielduarte/rn-fast-classname.git"
+  },
+  "keywords": [
+    "classname",
+    "react-native",
+    "fast-classname"
+  ],
+  "author": "Diel Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dielduarte/rn-fast-classname/issues"
+  },
+  "homepage": "https://github.com/dielduarte/rn-fast-classname#readme",
+  "dependencies": {
+    "fast-memoize": "^2.5.1"
+  }
+}
