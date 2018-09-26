@@ -1,4 +1,4 @@
-import memoize from 'fast-memoize';
+const memoize = require('fast-memoize');
 
 function getClass(styles, conditionalStyles) {
   return Object.keys(conditionalStyles).reduce((prev, next) => {
