@@ -28,7 +28,8 @@ render() {
   });
 
   return (
-    <Container style={containerStyles}>                  {this.props.children}
+    <Container style={containerStyles}>                  
+       {this.props.children}
     </Container>
   )
 }
