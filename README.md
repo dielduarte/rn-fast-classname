@@ -2,7 +2,7 @@
 
 a fast helper to use conditional styles using css in js
 
-## hot to use
+## how to use
 
 To install just run `yarn add rn-fast-classname` or `npm install -s rn-fast-classname`.
 
