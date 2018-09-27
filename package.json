@@ -1,10 +1,11 @@
 {
   "name": "rn-fast-classname",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,12 @@
   },
   "homepage": "https://github.com/dielduarte/rn-fast-classname#readme",
   "dependencies": {
-    "fast-memoize": "^2.5.1"
+    "fast-memoize": "^2.5.1",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/**.js"
+    ]
   }
 }
