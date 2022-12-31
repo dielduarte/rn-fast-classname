@@ -24,7 +24,7 @@
   "homepage": "https://github.com/dielduarte/rn-fast-classname#readme",
   "dependencies": {
     "fast-memoize": "^2.5.1",
-    "jest": "^23.6.0"
+    "jest": "^29.3.1"
   },
   "jest": {
     "collectCoverageFrom": [
